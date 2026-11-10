@@ -1,7 +1,7 @@
 # Django 6.1 needs Python 3.12+
 FROM python:3.13-slim
 
-LABEL org.opencontainers.image.source="https://github.com/ralph-issa/ai-agent-docker"
+LABEL org.opencontainers.image.source="https://github.com/ralph-issa/ai-agent-cicd"
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
